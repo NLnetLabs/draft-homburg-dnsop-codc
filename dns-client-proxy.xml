@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- name="GENERATOR" content="github.com/mmarkdown/mmark Mmark Markdown Processor - mmark.miek.nl" -->
-<rfc version="3" ipr="trust200902" docName="draft-homburg-dnsop-codcp-00" submissionType="IETF" category="std" xml:lang="en" xmlns:xi="http://www.w3.org/2001/XInclude" indexInclude="true" consensus="true">
+<rfc version="3" ipr="trust200902" docName="draft-homburg-dnsop-codcp-01" submissionType="IETF" category="std" xml:lang="en" xmlns:xi="http://www.w3.org/2001/XInclude" indexInclude="true" consensus="true">
 
 <front>
-<title abbrev="codcp">Control Options For DNS Client Proxies</title><seriesInfo value="draft-homburg-dnsop-codcp-00" stream="IETF" status="standard" name="Internet-Draft"></seriesInfo>
+<title abbrev="codcp">Control Options For DNS Client Proxies</title><seriesInfo value="draft-homburg-dnsop-codcp-01" stream="IETF" status="standard" name="Internet-Draft"></seriesInfo>
 <author initials="P.C." surname="Homburg" fullname="Philip Homburg"><organization></organization><address><postal><street></street>
 </postal><email>philip@nlnetlabs.nl</email>
 </address></author><date/>
@@ -27,6 +27,12 @@ capabilities and actual transports that are available.</t>
 </front>
 
 <middle>
+
+<section anchor="discussion-venues"><name>Discussion Venues</name>
+<t>This note is to be removed before publishing as an RFC.
+Source for this draft and an issue tracker can be found at
+<eref target="https://github.com/NLnetLabs/draft-homburg-dnsop-codc">https://github.com/NLnetLabs/draft-homburg-dnsop-codc</eref> .</t>
+</section>
 
 <section anchor="definitions"><name>Definitions</name>
 
@@ -857,6 +863,12 @@ An RFC shall be required to add new entries to the registry.</t>
 <t>(This section to be removed by the RFC editor.)</t>
 
 <ul>
+<li><t>draft-homburg-dnsop-codcp-01</t>
+
+<ul spacing="compact">
+<li>Moved draft to a separate git repository
+(<eref target="https://github.com/NLnetLabs/draft-homburg-dnsop-codc">https://github.com/NLnetLabs/draft-homburg-dnsop-codc</eref>)</li>
+</ul></li>
 <li><t>draft-homburg-dnsop-codcp-00</t>
 
 <ul spacing="compact">

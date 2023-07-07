@@ -7,7 +7,7 @@ workgroup = "DNSOP"
 [seriesInfo]
 status = "standard"
 name = "Internet-Draft"
-value = "draft-homburg-dnsop-codcp-00"
+value = "draft-homburg-dnsop-codcp-01"
 stream = "IETF"
 
 date = 2022-07-11T00:00:00Z
@@ -36,6 +36,12 @@ stub resolver to request certain transport and allow the proxy to report
 capabilities and actual transports that are available.
 
 {mainmatter}
+
+# Discussion Venues
+
+This note is to be removed before publishing as an RFC.
+Source for this draft and an issue tracker can be found at
+https://github.com/NLnetLabs/draft-homburg-dnsop-codc .
 
 # Definitions
 
@@ -430,7 +436,7 @@ SvcParam
 
 : Svc parameter value
 
-This document take the meaning of SvcParamKeys 'alpn', 'port', and 'dohpath'
+This document takes the meaning of SvcParamKeys 'alpn', 'port', and 'dohpath'
 from [draft-ietf-add-svcb-dns] with the exception that 'alpn' does not have
 to be present (i.e., the 'MUST be present' requirement does not apply)
 
@@ -792,6 +798,11 @@ Many thanks to Yorgos Thessalonikefs and Willem Toorop for their feedback.
 # Change history
 
 (This section to be removed by the RFC editor.)
+
+* draft-homburg-dnsop-codcp-01
+
+  - Moved draft to a separate git repository
+    (https://github.com/NLnetLabs/draft-homburg-dnsop-codc)
 
 * draft-homburg-dnsop-codcp-00
 
